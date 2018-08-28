@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.restlet.jee"
+		module="org.restlet.ext.servlet"
+		revision="2.3.0"
+		status="release"
+		publication="20141217204132"
+	>
+		<description homepage="">
+		Integration with Servlet API.
+		</description>
+		<m:properties__lib-spring-expression-version>3.2.6.RELEASE</m:properties__lib-spring-expression-version>
+		<m:properties__lib-thymeleaf-version>2.1.2.RELEASE</m:properties__lib-thymeleaf-version>
+		<m:properties__lib-rome-version>1.0</m:properties__lib-rome-version>
+		<m:properties__lib-slf4j-version>1.7.2</m:properties__lib-slf4j-version>
+		<m:properties__lib-emf-ecore-version>2.6.0.v20100614-1136</m:properties__lib-emf-ecore-version>
+		<m:properties__lib-jackson-jaxb-version>2.4.4</m:properties__lib-jackson-jaxb-version>
+		<m:properties__lib-jaxrs-version>2.0</m:properties__lib-jaxrs-version>
+		<m:properties__lib-spring-core-version>3.2.6.RELEASE</m:properties__lib-spring-core-version>
+		<m:properties__lib-tika-version>1.4</m:properties__lib-tika-version>
+		<m:properties__lib-stax2-version>3.1.4</m:properties__lib-stax2-version>
+		<m:properties__lib-xstream-version>1.4.7</m:properties__lib-xstream-version>
+		<m:properties__lib-pool-version>1.5.6</m:properties__lib-pool-version>
+		<m:properties__lib-dbcp-version>1.3</m:properties__lib-dbcp-version>
+		<m:properties__lib-io-version>2.0.1</m:properties__lib-io-version>
+		<m:properties__lib-e4-di-version>0.12.RC1</m:properties__lib-e4-di-version>
+		<m:properties__lib-lucene-version>4.6.0</m:properties__lib-lucene-version>
+		<m:properties__lib-protobuf-version>2.2.0</m:properties__lib-protobuf-version>
+		<m:properties__lib-httpclient-version>4.3.2</m:properties__lib-httpclient-version>
+		<m:properties__lib-httpcore-version>4.3.1</m:properties__lib-httpcore-version>
+		<m:properties__lib-jettison-version>1.3.5</m:properties__lib-jettison-version>
+		<m:properties__lib-fileupload-version>1.3</m:properties__lib-fileupload-version>
+		<m:properties__lib-oauth-version>20100527</m:properties__lib-oauth-version>
+		<m:properties__lib-jcip-annotations-version>1.0</m:properties__lib-jcip-annotations-version>
+		<m:properties__lib-spring-context-version>3.2.6.RELEASE</m:properties__lib-spring-context-version>
+		<m:properties__lib-nekohtml-version>1.9.19</m:properties__lib-nekohtml-version>
+		<m:properties__lib-velocity-version>1.7</m:properties__lib-velocity-version>
+		<m:properties__lib-junit-version>4.11</m:properties__lib-junit-version>
+		<m:properties__lib-raml-version>0.8.7</m:properties__lib-raml-version>
+		<m:properties__lib-jdom-version>1.1</m:properties__lib-jdom-version>
+		<m:properties__lib-scala-library-version>2.9.1</m:properties__lib-scala-library-version>
+		<m:properties__lib-jackson-core-version>2.4.4</m:properties__lib-jackson-core-version>
+		<m:properties__lib-gwt-server-version>2.3.0</m:properties__lib-gwt-server-version>
+		<m:properties__lib-testng-version>6.8.7</m:properties__lib-testng-version>
+		<m:properties__lib-ognl-version>3.0.8</m:properties__lib-ognl-version>
+		<m:properties__lib-freemarker-version>2.3.20</m:properties__lib-freemarker-version>
+		<m:properties__lib-jackson-xml-version>2.4.4</m:properties__lib-jackson-xml-version>
+		<m:properties__lib-swagger-annotations-version>1.3.10</m:properties__lib-swagger-annotations-version>
+		<m:properties__lib-openid4java-version>0.9.6</m:properties__lib-openid4java-version>
+		<m:properties__lib-jaxb-ri-version>2.1.12</m:properties__lib-jaxb-ri-version>
+		<m:properties__lib-emf-common-version>2.6.0.v20100614-1136</m:properties__lib-emf-common-version>
+		<m:properties__lib-jackson-csv-version>2.4.4</m:properties__lib-jackson-csv-version>
+		<m:properties__lib-jackson-databind-version>2.4.4</m:properties__lib-jackson-databind-version>
+		<m:properties__lib-emf-ecore-xmi-version>2.5.0.v20100521-1846</m:properties__lib-emf-ecore-xmi-version>
+		<m:properties__lib-javax.inject-version>1</m:properties__lib-javax.inject-version>
+		<m:properties__lib-spring-beans-version>3.2.6.RELEASE</m:properties__lib-spring-beans-version>
+		<m:properties__lib-servlet-version>3.1.0</m:properties__lib-servlet-version>
+		<m:properties__lib-mongodb-version>2.11.3</m:properties__lib-mongodb-version>
+		<m:properties__lib-snakeyaml-version>1.13</m:properties__lib-snakeyaml-version>
+		<m:properties__lib-gson-version>2.3.1</m:properties__lib-gson-version>
+		<m:properties__lib-jibx-version>1.2.5</m:properties__lib-jibx-version>
+		<m:properties__lib-collections-version>3.2.1</m:properties__lib-collections-version>
+		<m:properties__lib-swagger-models-version>1.5.0-SNAPSHOT</m:properties__lib-swagger-models-version>
+		<m:properties__lib-spring-web-version>3.2.6.RELEASE</m:properties__lib-spring-web-version>
+		<m:properties__lib-woodstock-core-version>4.3.0</m:properties__lib-woodstock-core-version>
+		<m:properties__lib-lang-version>2.6</m:properties__lib-lang-version>
+		<m:properties__lib-cglib-version>2.2</m:properties__lib-cglib-version>
+		<m:properties__lib-javamail-version>1.4.2</m:properties__lib-javamail-version>
+		<m:properties__lib-json-version>2.0</m:properties__lib-json-version>
+		<m:properties__lib-osgi-version>4.0.0</m:properties__lib-osgi-version>
+		<m:properties__lib-tika-parsers-version>1.4</m:properties__lib-tika-parsers-version>
+		<m:properties__lib-gdata-client-version>1.0</m:properties__lib-gdata-client-version>
+		<m:properties__lib-jsslutils-version>1.0.5</m:properties__lib-jsslutils-version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null</m:maven.plugins>
+		<m:properties__lib-jackson-smile-version>2.4.4</m:properties__lib-jackson-smile-version>
+		<m:properties__lib-swagger-core-version>1.5.0-SNAPSHOT</m:properties__lib-swagger-core-version>
+		<m:properties__lib-sdc-version>1.3.rc2</m:properties__lib-sdc-version>
+		<m:properties__lib-hamcrest-version>1.3</m:properties__lib-hamcrest-version>
+		<m:properties__lib-solr-common-version>4.6.0</m:properties__lib-solr-common-version>
+		<m:properties__lib-scalap-version>2.9.1</m:properties__lib-scalap-version>
+		<m:properties__lib-gdata-version>1.0</m:properties__lib-gdata-version>
+		<m:properties__lib-log4j-version>1.2.17</m:properties__lib-log4j-version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__lib-javassist-version>3.18.1-GA</m:properties__lib-javassist-version>
+		<m:properties__lib-spring-webmvc-version>3.2.6.RELEASE</m:properties__lib-spring-webmvc-version>
+		<m:properties__lib-codec-version>1.5</m:properties__lib-codec-version>
+		<m:properties__lib-joda-time-version>2.3</m:properties__lib-joda-time-version>
+		<m:properties__lib-httpmime-version>4.3</m:properties__lib-httpmime-version>
+		<m:properties__lib-jackson-annotations-version>2.4.4</m:properties__lib-jackson-annotations-version>
+		<m:properties__lib-guava-version>16.0.1</m:properties__lib-guava-version>
+		<m:properties__lib-e4-contexts-version>0.12.RC1</m:properties__lib-e4-contexts-version>
+		<m:properties__lib-mime4j-version>0.7.2</m:properties__lib-mime4j-version>
+		<m:properties__lib-logging-version>1.1.3</m:properties__lib-logging-version>
+		<m:properties__lib-jackson-yaml-version>2.4.4</m:properties__lib-jackson-yaml-version>
+		<m:properties__lib-guice-version>3.0</m:properties__lib-guice-version>
+		<m:properties__lib-solr-version>4.6.0</m:properties__lib-solr-version>
+		<m:properties__lib-jackson-jsonschema-version>2.4.4</m:properties__lib-jackson-jsonschema-version>
+		<m:properties__lib-aopalliance-version>1.0</m:properties__lib-aopalliance-version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="org.restlet.ext.servlet" type="jar" ext="jar" conf="master"/>
+		<artifact name="org.restlet.ext.servlet" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="org.restlet.ext.servlet" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.restlet.jee" name="org.restlet" rev="2.3.0" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+	</dependencies>
+</ivy-module>

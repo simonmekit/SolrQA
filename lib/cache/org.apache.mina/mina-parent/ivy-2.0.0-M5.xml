@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.apache.mina"
+		module="mina-parent"
+		revision="2.0.0-M5"
+		status="release"
+		publication="20090411001418"
+	>
+		<description homepage="http://mina.apache.org" />
+		<m:dependency.management__junit__junit__version>4.4</m:dependency.management__junit__junit__version>
+		<m:dependency.management__org.apache.mina__mina-filter-compression__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-filter-compression__version>
+		<m:dependency.management__tomcat__tomcat-apr__version>5.5.23</m:dependency.management__tomcat__tomcat-apr__version>
+		<m:dependency.management__log4j__log4j__version>1.2.14</m:dependency.management__log4j__log4j__version>
+		<m:properties__organization.logo>http://www.apache.org/images/asf_logo_wide.gif</m:properties__organization.logo>
+		<m:dependency.management__org.apache.mina__mina-integration-jmx__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-integration-jmx__version>
+		<m:dependency.management__net.gleamynode__netty2__version>1.9.2</m:dependency.management__net.gleamynode__netty2__version>
+		<m:properties__symbolicName>${exportedPackage}</m:properties__symbolicName>
+		<m:dependency.management__org.springframework__spring__exclusion_2>javax.servlet__servlet-api</m:dependency.management__org.springframework__spring__exclusion_2>
+		<m:dependency.management__org.easymock__easymockclassextension__scope>test</m:dependency.management__org.easymock__easymockclassextension__scope>
+		<m:dependency.management__org.springframework__spring__exclusion_1>commons-logging__commons-logging-api</m:dependency.management__org.springframework__spring__exclusion_1>
+		<m:dependency.management__org.springframework__spring__exclusion_0>commons-logging__commons-logging</m:dependency.management__org.springframework__spring__exclusion_0>
+		<m:dependency.management__org.easymock__easymock__version>2.3</m:dependency.management__org.easymock__easymock__version>
+		<m:dependency.management__org.apache.mina__mina-integration-ognl__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-integration-ognl__version>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__version>1.5.2</m:dependency.management__org.slf4j__jcl-over-slf4j__version>
+		<m:dependency.management__com.agical.rmock__rmock__scope>test</m:dependency.management__com.agical.rmock__rmock__scope>
+		<m:dependency.management__com.jcraft__jzlib__version>1.0.7</m:dependency.management__com.jcraft__jzlib__version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-compiler-plugin__2.0.2|null__maven-surefire-plugin__2.4.3|org.apache.maven.plugins__maven-source-plugin__2.0.4|null__maven-assembly-plugin__2.2-beta-2|null__maven-release-plugin__2.0-beta-7|org.apache.felix__maven-bundle-plugin__1.4.1|org.apache.maven.plugins__maven-compiler-plugin__2.0.2|null__maven-surefire-plugin__2.4.3|org.apache.maven.plugins__maven-source-plugin__2.0.4|null__maven-assembly-plugin__2.2-beta-2|null__maven-release-plugin__2.0-beta-7|org.apache.felix__maven-bundle-plugin__1.4.1|null__maven-remote-resources-plugin__1.0</m:maven.plugins>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.5.2</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.5.2</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.apache.mina__mina-transport-apr__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-transport-apr__version>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+		<m:dependency.management__commons-lang__commons-lang__version>2.4</m:dependency.management__commons-lang__commons-lang__version>
+		<m:dependency.management__jboss__javassist__version>3.7.ga</m:dependency.management__jboss__javassist__version>
+		<m:dependency.management__com.agical.rmock__rmock__version>2.0.0</m:dependency.management__com.agical.rmock__rmock__version>
+		<m:dependency.management__ognl__ognl__version>2.7.2</m:dependency.management__ognl__ognl__version>
+		<m:dependency.management__org.apache.mina__mina-statemachine__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-statemachine__version>
+		<m:dependency.management__org.apache.mina__mina-filter-codec-netty__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-filter-codec-netty__version>
+		<m:dependency.management__org.easymock__easymockclassextension__version>2.3</m:dependency.management__org.easymock__easymockclassextension__version>
+		<m:dependency.management__org.easymock__easymock__scope>test</m:dependency.management__org.easymock__easymock__scope>
+		<m:dependency.management__org.apache.xbean__xbean-spring__version>3.4.3</m:dependency.management__org.apache.xbean__xbean-spring__version>
+		<m:dependency.management__org.springframework__spring__version>2.5.5</m:dependency.management__org.springframework__spring__version>
+		<m:dependency.management__org.apache.mina__mina-core__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-core__version>
+		<m:dependency.management__org.apache.mina__mina-integration-beans__version>2.0.0-M5</m:dependency.management__org.apache.mina__mina-integration-beans__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.5.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.5.2" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.5.2" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="log4j" name="log4j" rev="1.2.14" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="junit" name="junit" rev="4.4" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.easymock" name="easymock" rev="2.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.easymock" name="easymockclassextension" rev="2.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="com.agical.rmock" name="rmock" rev="2.0.0" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="org.apache.mina" module="mina-core" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-transport-apr" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-filter-compression" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-filter-codec-netty" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-integration-beans" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-integration-ognl" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-integration-jmx" matcher="exact" rev="2.0.0-M5"/>
+		<override org="org.apache.mina" module="mina-statemachine" matcher="exact" rev="2.0.0-M5"/>
+		<override org="tomcat" module="tomcat-apr" matcher="exact" rev="5.5.23"/>
+		<override org="com.jcraft" module="jzlib" matcher="exact" rev="1.0.7"/>
+		<override org="net.gleamynode" module="netty2" matcher="exact" rev="1.9.2"/>
+		<override org="org.apache.xbean" module="xbean-spring" matcher="exact" rev="3.4.3"/>
+		<override org="org.springframework" module="spring" matcher="exact" rev="2.5.5"/>
+		<override org="ognl" module="ognl" matcher="exact" rev="2.7.2"/>
+		<override org="jboss" module="javassist" matcher="exact" rev="3.7.ga"/>
+		<override org="commons-lang" module="commons-lang" matcher="exact" rev="2.4"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.5.2"/>
+		<override org="org.slf4j" module="jcl-over-slf4j" matcher="exact" rev="1.5.2"/>
+		<override org="org.slf4j" module="slf4j-log4j12" matcher="exact" rev="1.5.2"/>
+		<override org="log4j" module="log4j" matcher="exact" rev="1.2.14"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.4"/>
+		<override org="org.easymock" module="easymock" matcher="exact" rev="2.3"/>
+		<override org="org.easymock" module="easymockclassextension" matcher="exact" rev="2.3"/>
+		<override org="com.agical.rmock" module="rmock" matcher="exact" rev="2.0.0"/>
+	</dependencies>
+</ivy-module>

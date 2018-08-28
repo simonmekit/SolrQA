@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.kitesdk"
+		module="kite-morphlines-json"
+		revision="1.1.0"
+		status="release"
+		publication="20150616102202"
+	>
+		<description homepage="" />
+		<m:dependency.management__org.kitesdk__kite-morphlines-maxmind__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-maxmind__version>
+		<m:properties__vers.avro>1.7.5</m:properties__vers.avro>
+		<m:dependency.management__org.apache.flume__flume-ng-sdk__version>1.4.0</m:dependency.management__org.apache.flume__flume-ng-sdk__version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.4</m:dependency.management__commons-codec__commons-codec__version>
+		<m:dependency.management__org.apache.maven.plugin-tools__maven-plugin-annotations__scope>provided</m:dependency.management__org.apache.maven.plugin-tools__maven-plugin-annotations__scope>
+		<m:dependency.management__org.apache.hadoop__hadoop-aws__version>2.6.0</m:dependency.management__org.apache.hadoop__hadoop-aws__version>
+		<m:properties__solr.expected.version>4.10.3</m:properties__solr.expected.version>
+		<m:properties__vers.parquet>1.6.0</m:properties__vers.parquet>
+		<m:properties__vers.commons-lang>2.5</m:properties__vers.commons-lang>
+		<m:dependency.management__org.kitesdk__kite-hbase-dependencies__version>1.1.0</m:dependency.management__org.kitesdk__kite-hbase-dependencies__version>
+		<m:dependency.management__org.kitesdk__kite-hbase-test-dependencies__scope>test</m:dependency.management__org.kitesdk__kite-hbase-test-dependencies__scope>
+		<m:properties__previous.project.version>1.0.0</m:properties__previous.project.version>
+		<m:properties__vers.maven-release-plugin>2.5.1</m:properties__vers.maven-release-plugin>
+		<m:properties__vers.compress>1.4.1</m:properties__vers.compress>
+		<m:properties__vers.maven-jar-plugin>2.4</m:properties__vers.maven-jar-plugin>
+		<m:properties__vers.findbugs-maven-plugin>3.0.0</m:properties__vers.findbugs-maven-plugin>
+		<m:dependency.management__org.apache.flume__flume-ng-core__version>1.4.0</m:dependency.management__org.apache.flume__flume-ng-core__version>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__version>1.6.1</m:dependency.management__org.slf4j__jcl-over-slf4j__version>
+		<m:dependency.management__org.apache.solr__solr-test-framework__scope>test</m:dependency.management__org.apache.solr__solr-test-framework__scope>
+		<m:properties__vers.maven-javadoc-plugin>2.9.1</m:properties__vers.maven-javadoc-plugin>
+		<m:properties__vers.findbugs.jsr305>2.0.1</m:properties__vers.findbugs.jsr305>
+		<m:dependency.management__commons-logging__commons-logging__version>1.1.1</m:dependency.management__commons-logging__commons-logging__version>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+		<m:dependency.management__org.kitesdk__kite-morphlines-avro__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-avro__version>
+		<m:properties__artifact.hadoop-test-deps>kite-hadoop-test-dependencies</m:properties__artifact.hadoop-test-deps>
+		<m:dependency.management__org.kitesdk__kite-morphlines-metrics-servlets__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-metrics-servlets__version>
+		<m:properties__vers.log4j>1.2.16</m:properties__vers.log4j>
+		<m:properties__vers.jodatime>2.3</m:properties__vers.jodatime>
+		<m:properties__vers.mojo-executor>1.5</m:properties__vers.mojo-executor>
+		<m:dependency.management__com.twitter__parquet-hive-bundle__exclusion_0>org.apache.hadoop__hadoop-core</m:dependency.management__com.twitter__parquet-hive-bundle__exclusion_0>
+		<m:properties__test.aws.s3.secret.key>${env.AWS_SECRET_ACCESS_KEY}</m:properties__test.aws.s3.secret.key>
+		<m:properties__vers.hbase2>0.98.3-hadoop2</m:properties__vers.hbase2>
+		<m:dependency.management__org.apache.maven__maven-project__version>2.0.6</m:dependency.management__org.apache.maven__maven-project__version>
+		<m:properties__vers.hbase1>0.94.6</m:properties__vers.hbase1>
+		<m:dependency.management__org.kitesdk__kite-morphlines__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-hadoop-core__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-hadoop-core__version>
+		<m:properties__vers.commons-codec>1.4</m:properties__vers.commons-codec>
+		<m:properties__vers.oozie>3.3.2-cdh${cdh.version}</m:properties__vers.oozie>
+		<m:properties__artifact.hadoop-deps>kite-hadoop-dependencies</m:properties__artifact.hadoop-deps>
+		<m:dependency.management__org.apache.crunch__crunch-core__version>0.10.0-hadoop2</m:dependency.management__org.apache.crunch__crunch-core__version>
+		<m:dependency.management__org.apache.hive__hive-serde__exclusion_0>org.apache.avro__avro-mapred</m:dependency.management__org.apache.hive__hive-serde__exclusion_0>
+		<m:dependency.management__org.apache.spark__spark-core_2.10__version>1.0.0</m:dependency.management__org.apache.spark__spark-core_2.10__version>
+		<m:dependency.management__org.apache.hive__hive-serde__exclusion_1>org.apache.avro__avro</m:dependency.management__org.apache.hive__hive-serde__exclusion_1>
+		<m:dependency.management__org.kitesdk__kite-morphlines-tika-core__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-tika-core__version>
+		<m:dependency.management__org.apache.solr__solr-core__exclusion_1>org.apache.hadoop__hadoop-annotations</m:dependency.management__org.apache.solr__solr-core__exclusion_1>
+		<m:properties__vers.junit>4.10</m:properties__vers.junit>
+		<m:dependency.management__org.apache.solr__solr-core__exclusion_0>org.apache.hadoop__hadoop-auth</m:dependency.management__org.apache.solr__solr-core__exclusion_0>
+		<m:properties__vers.hadoop-cdh5>2.6.0-cdh${cdh5.version}</m:properties__vers.hadoop-cdh5>
+		<m:dependency.management__org.apache.solr__solr-core__exclusion_3>org.apache.hadoop__hadoop-common</m:dependency.management__org.apache.solr__solr-core__exclusion_3>
+		<m:dependency.management__org.apache.solr__solr-core__exclusion_2>org.apache.hadoop__hadoop-hdfs</m:dependency.management__org.apache.solr__solr-core__exclusion_2>
+		<m:properties__vers.hadoop-cdh4>2.0.0-cdh${cdh4.version}</m:properties__vers.hadoop-cdh4>
+		<m:properties__vers.hive-cdh5>1.1.0-cdh${cdh5.version}</m:properties__vers.hive-cdh5>
+		<m:properties__vers.git-provider>1.8.1</m:properties__vers.git-provider>
+		<m:dependency.management__org.apache.hive__hive-serde__version>0.13.0</m:dependency.management__org.apache.hive__hive-serde__version>
+		<m:properties__cdh5.version>5.4.2</m:properties__cdh5.version>
+		<m:properties__vers.doxia-module-markdown>1.4</m:properties__vers.doxia-module-markdown>
+		<m:properties__vers.crunch>${vers.crunch-base}-hadoop2</m:properties__vers.crunch>
+		<m:properties__vers.crunch-cdh5>0.11.0-cdh${cdh5.version}</m:properties__vers.crunch-cdh5>
+		<m:dependency.management__junit__junit__version>4.10</m:dependency.management__junit__junit__version>
+		<m:dependency.management__log4j__log4j__version>1.2.16</m:dependency.management__log4j__log4j__version>
+		<m:dependency.management__org.apache.tika__tika-xmp__version>1.5</m:dependency.management__org.apache.tika__tika-xmp__version>
+		<m:properties__url.jira>http://issues.cloudera.com/browse/CDK</m:properties__url.jira>
+		<m:properties__vers.maven-exec-plugin>1.2.1</m:properties__vers.maven-exec-plugin>
+		<m:dependency.management__org.apache.solr__solr-core__version>4.10.3</m:dependency.management__org.apache.solr__solr-core__version>
+		<m:dependency.management__com.google.code.findbugs__jsr305__scope>provided</m:dependency.management__com.google.code.findbugs__jsr305__scope>
+		<m:properties__vers.semver-enforcer>0.9.18</m:properties__vers.semver-enforcer>
+		<m:dependency.management__org.kitesdk__kite-hadoop-test-dependencies__scope>test</m:dependency.management__org.kitesdk__kite-hadoop-test-dependencies__scope>
+		<m:dependency.management__org.codehaus.plexus__plexus-utils__version>3.0</m:dependency.management__org.codehaus.plexus__plexus-utils__version>
+		<m:properties__vers.hadoop1>1.2.1</m:properties__vers.hadoop1>
+		<m:properties__vers.hadoop2>2.6.0</m:properties__vers.hadoop2>
+		<m:properties__vers.github-site-maven-plugin>0.10</m:properties__vers.github-site-maven-plugin>
+		<m:dependency.management__org.twdata.maven__mojo-executor__version>1.5</m:dependency.management__org.twdata.maven__mojo-executor__version>
+		<m:dependency.management__org.eclipse.jetty__jetty-servlet__version>8.1.14.v20131031</m:dependency.management__org.eclipse.jetty__jetty-servlet__version>
+		<m:properties__vers.solr>4.10.3</m:properties__vers.solr>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.3.1|org.apache.maven.plugins__maven-release-plugin__2.5.1|org.apache.maven.plugins__maven-site-plugin__3.3|org.apache.maven.plugins__maven-javadoc-plugin__2.9.1|org.sonatype.plugins__nexus-staging-maven-plugin__1.6.2|com.github.github__site-maven-plugin__0.10|org.apache.maven.plugins__maven-enforcer-plugin__1.3.1|org.apache.maven.plugins__maven-release-plugin__2.5.1|org.apache.maven.plugins__maven-site-plugin__3.3|org.apache.maven.plugins__maven-javadoc-plugin__2.9.1|org.sonatype.plugins__nexus-staging-maven-plugin__1.6.2|com.github.github__site-maven-plugin__0.10|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__null|org.apache.rat__apache-rat-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.3.1|org.apache.maven.plugins__maven-release-plugin__2.5.1|org.apache.maven.plugins__maven-site-plugin__3.3|org.apache.maven.plugins__maven-javadoc-plugin__2.9.1|org.sonatype.plugins__nexus-staging-maven-plugin__1.6.2|com.github.github__site-maven-plugin__0.10|org.apache.maven.plugins__maven-enforcer-plugin__1.3.1|org.apache.maven.plugins__maven-release-plugin__2.5.1|org.apache.maven.plugins__maven-site-plugin__3.3|org.apache.maven.plugins__maven-javadoc-plugin__2.9.1|org.sonatype.plugins__nexus-staging-maven-plugin__1.6.2|com.github.github__site-maven-plugin__0.10|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__null|org.apache.rat__apache-rat-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null|org.apache.maven.plugins__maven-antrun-plugin__null</m:maven.plugins>
+		<m:properties__vers.jetty>8.1.14.v20131031</m:properties__vers.jetty>
+		<m:properties__vers.codahale.metrics>3.0.2</m:properties__vers.codahale.metrics>
+		<m:dependency.management__com.codahale.metrics__metrics-servlets__version>3.0.2</m:dependency.management__com.codahale.metrics__metrics-servlets__version>
+		<m:dependency.management__com.twitter__parquet-avro__exclusion_0>org.apache.hadoop__hadoop-core</m:dependency.management__com.twitter__parquet-avro__exclusion_0>
+		<m:dependency.management__com.google.guava__guava__version>11.0.2</m:dependency.management__com.google.guava__guava__version>
+		<m:dependency.management__commons-lang__commons-lang__version>2.5</m:dependency.management__commons-lang__commons-lang__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-protobuf__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-protobuf__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-twitter__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-twitter__version>
+		<m:properties__vers.maven>2.0.6</m:properties__vers.maven>
+		<m:dependency.management__org.kitesdk__kite-morphlines-saxon__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-saxon__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-hadoop-rcfile__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-hadoop-rcfile__version>
+		<m:dependency.management__org.mockito__mockito-all__version>1.9.5</m:dependency.management__org.mockito__mockito-all__version>
+		<m:properties__url.project>http://kitesdk.org/</m:properties__url.project>
+		<m:properties__javaVersion>1.7</m:properties__javaVersion>
+		<m:properties__vers.hadoop-aws>2.6.0</m:properties__vers.hadoop-aws>
+		<m:dependency.management__org.kitesdk__kite-morphlines-tika-decompress__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-tika-decompress__version>
+		<m:dependency.management__org.apache.crunch__crunch-core__scope>provided</m:dependency.management__org.apache.crunch__crunch-core__scope>
+		<m:properties__vers.solr-cdh5>4.10.3</m:properties__vers.solr-cdh5>
+		<m:properties__artifact.hbase-deps>kite-hbase-dependencies</m:properties__artifact.hbase-deps>
+		<m:properties__vers.maven-source-plugin>2.2.1</m:properties__vers.maven-source-plugin>
+		<m:dependency.management__org.apache.hadoop__hadoop-aws__scope>provided</m:dependency.management__org.apache.hadoop__hadoop-aws__scope>
+		<m:properties__vers.maven-compiler-plugin>3.1</m:properties__vers.maven-compiler-plugin>
+		<m:dependency.management__org.kitesdk__kite-hadoop-dependencies__version>1.1.0</m:dependency.management__org.kitesdk__kite-hadoop-dependencies__version>
+		<m:properties__cdh.version>${cdh4.version}</m:properties__cdh.version>
+		<m:dependency.management__org.apache.tika__tika-xmp__exclusion_0>org.apache.geronimo.specs__geronimo-stax-api_1.0_spec</m:dependency.management__org.apache.tika__tika-xmp__exclusion_0>
+		<m:dependency.management__org.apache.tika__tika-xmp__exclusion_1>xerces__xercesImpl</m:dependency.management__org.apache.tika__tika-xmp__exclusion_1>
+		<m:properties__vers.plexus-utils>3.0</m:properties__vers.plexus-utils>
+		<m:properties__targetJavaVersion>1.6</m:properties__targetJavaVersion>
+		<m:properties__vers.opencsv>2.3</m:properties__vers.opencsv>
+		<m:dependency.management__org.apache.oozie__oozie-client__version>3.3.2-cdh4.4.0</m:dependency.management__org.apache.oozie__oozie-client__version>
+		<m:dependency.management__com.google.code.findbugs__annotations__scope>provided</m:dependency.management__com.google.code.findbugs__annotations__scope>
+		<m:dependency.management__org.kitesdk__kite-morphlines-hadoop-parquet-avro__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-hadoop-parquet-avro__version>
+		<m:properties__vers.mockito>1.9.5</m:properties__vers.mockito>
+		<m:dependency.management__org.apache.commons__commons-compress__version>1.4.1</m:dependency.management__org.apache.commons__commons-compress__version>
+		<m:properties__vers.hbase-cdh4>0.94.6-cdh${cdh4.version}</m:properties__vers.hbase-cdh4>
+		<m:properties__github.global.server>github</m:properties__github.global.server>
+		<m:properties__vers.spark>1.0.0</m:properties__vers.spark>
+		<m:dependency.management__org.apache.flume__flume-ng-configuration__version>1.4.0</m:dependency.management__org.apache.flume__flume-ng-configuration__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.6.1</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.6.1</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-useragent__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-useragent__version>
+		<m:dependency.management__net.sf.opencsv__opencsv__version>2.3</m:dependency.management__net.sf.opencsv__opencsv__version>
+		<m:properties__vers.jcommander>1.35</m:properties__vers.jcommander>
+		<m:properties__vers.crunch-base>0.10.0</m:properties__vers.crunch-base>
+		<m:dependency.management__org.apache.avro__avro__version>1.7.5</m:dependency.management__org.apache.avro__avro__version>
+		<m:properties__test.aws.access.key>${env.AWS_ACCESS_KEY_ID}</m:properties__test.aws.access.key>
+		<m:dependency.management__org.apache.commons__commons-jexl__version>2.1.1</m:dependency.management__org.apache.commons__commons-jexl__version>
+		<m:properties__vers.maven-shade-plugin>2.3</m:properties__vers.maven-shade-plugin>
+		<m:properties__vers.typesafe.config>1.0.2</m:properties__vers.typesafe.config>
+		<m:properties__vers.maven-project-info-reports-plugin>2.7</m:properties__vers.maven-project-info-reports-plugin>
+		<m:dependency.management__org.kitesdk__kite-morphlines-solr-cell__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-solr-cell__version>
+		<m:properties__vers.commons-logging>1.1.1</m:properties__vers.commons-logging>
+		<m:dependency.management__com.codahale.metrics__metrics-healthchecks__version>3.0.2</m:dependency.management__com.codahale.metrics__metrics-healthchecks__version>
+		<m:dependency.management__org.apache.maven__maven-plugin-api__version>2.0.6</m:dependency.management__org.apache.maven__maven-plugin-api__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-hadoop-sequencefile__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-hadoop-sequencefile__version>
+		<m:properties__vers.tika>1.5</m:properties__vers.tika>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>2.3.1</m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>
+		<m:properties__vers.build-helper-maven-plugin>1.8</m:properties__vers.build-helper-maven-plugin>
+		<m:dependency.management__org.apache.maven.plugin-tools__maven-plugin-annotations__version>3.1</m:dependency.management__org.apache.maven.plugin-tools__maven-plugin-annotations__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-json__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-json__version>
+		<m:properties__vers.guava>11.0.2</m:properties__vers.guava>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>2.3.1</m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>
+		<m:properties__vers.flume>1.4.0</m:properties__vers.flume>
+		<m:dependency.management__com.twitter__parquet-avro__version>1.6.0</m:dependency.management__com.twitter__parquet-avro__version>
+		<m:dependency.management__org.kitesdk__kite-hbase-test-dependencies__version>1.1.0</m:dependency.management__org.kitesdk__kite-hbase-test-dependencies__version>
+		<m:dependency.management__org.apache.tika__tika-core__version>1.5</m:dependency.management__org.apache.tika__tika-core__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>2.3.1</m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>
+		<m:properties__vers.rat>0.9</m:properties__vers.rat>
+		<m:properties__vers.maven-antrun-plugin>1.7</m:properties__vers.maven-antrun-plugin>
+		<m:dependency.management__commons-io__commons-io__version>2.1</m:dependency.management__commons-io__commons-io__version>
+		<m:dependency.management__org.apache.solr__solr-test-framework__version>4.10.3</m:dependency.management__org.apache.solr__solr-test-framework__version>
+		<m:dependency.management__org.apache.maven__maven-plugin-api__exclusion_0>com.google.guava__guava</m:dependency.management__org.apache.maven__maven-plugin-api__exclusion_0>
+		<m:dependency.management__com.twitter__parquet-hive-bundle__version>1.6.0</m:dependency.management__com.twitter__parquet-hive-bundle__version>
+		<m:dependency.management__org.mockito__mockito-all__scope>test</m:dependency.management__org.mockito__mockito-all__scope>
+		<m:properties__vers.hadoop-mr1-cdh4>2.0.0-mr1-cdh${cdh4.version}</m:properties__vers.hadoop-mr1-cdh4>
+		<m:properties__vers.jexl>2.1.1</m:properties__vers.jexl>
+		<m:properties__vers.hive>0.13.0</m:properties__vers.hive>
+		<m:dependency.management__com.typesafe__config__version>1.0.2</m:dependency.management__com.typesafe__config__version>
+		<m:dependency.management__com.beust__jcommander__version>1.35</m:dependency.management__com.beust__jcommander__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-core__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-core__version>
+		<m:properties__test.aws.s3.bucket>${env.S3_BUCKET}</m:properties__test.aws.s3.bucket>
+		<m:dependency.management__org.apache.solr__solr-cell__version>4.10.3</m:dependency.management__org.apache.solr__solr-cell__version>
+		<m:dependency.management__org.kitesdk__kite-morphlines-solr-core__version>1.1.0</m:dependency.management__org.kitesdk__kite-morphlines-solr-core__version>
+		<m:properties__vers.jackson>2.3.1</m:properties__vers.jackson>
+		<m:properties__url.cloudera>http://www.cloudera.com</m:properties__url.cloudera>
+		<m:properties__vers.maven-plugin-plugin>3.1</m:properties__vers.maven-plugin-plugin>
+		<m:properties__vers.hbase-cdh5>1.0.0-cdh${cdh5.version}</m:properties__vers.hbase-cdh5>
+		<m:properties__vers.maven-assembly-plugin>2.4.1</m:properties__vers.maven-assembly-plugin>
+		<m:properties__vers.maven-enforcer-plugin>1.3.1</m:properties__vers.maven-enforcer-plugin>
+		<m:properties__vers.slf4j>1.6.1</m:properties__vers.slf4j>
+		<m:properties__vers.maven-site-plugin>3.3</m:properties__vers.maven-site-plugin>
+		<m:properties__vers.commons-io>2.1</m:properties__vers.commons-io>
+		<m:dependency.management__org.apache.hive__hive-exec__version>0.13.0</m:dependency.management__org.apache.hive__hive-exec__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__vers.doxia-module-confluence>1.4</m:properties__vers.doxia-module-confluence>
+		<m:dependency.management__com.google.code.findbugs__annotations__version>2.0.1</m:dependency.management__com.google.code.findbugs__annotations__version>
+		<m:dependency.management__org.kitesdk__kite-hadoop-test-dependencies__version>1.1.0</m:dependency.management__org.kitesdk__kite-hadoop-test-dependencies__version>
+		<m:dependency.management__com.codahale.metrics__metrics-core__version>3.0.2</m:dependency.management__com.codahale.metrics__metrics-core__version>
+		<m:properties__artifact.hbase-test-deps>kite-hbase-test-dependencies</m:properties__artifact.hbase-test-deps>
+		<m:properties__vers.maven-surefire-plugin>2.14.1</m:properties__vers.maven-surefire-plugin>
+		<m:properties__cdh4.version>4.4.0</m:properties__cdh4.version>
+		<m:dependency.management__org.kitesdk__kite-hadoop-compatibility__version>1.1.0</m:dependency.management__org.kitesdk__kite-hadoop-compatibility__version>
+		<m:dependency.management__joda-time__joda-time__version>2.3</m:dependency.management__joda-time__joda-time__version>
+		<m:dependency.management__com.google.code.findbugs__jsr305__version>2.0.1</m:dependency.management__com.google.code.findbugs__jsr305__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="kite-morphlines-json" type="jar" ext="jar" conf="master"/>
+		<artifact name="kite-morphlines-json" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="kite-morphlines-json" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.3.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.kitesdk" name="kite-morphlines-core" rev="1.1.0" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.kitesdk" name="kite-morphlines-core" rev="1.1.0" force="true" conf="test->runtime(*),master(*)">
+			<artifact name="kite-morphlines-core" type="test-jar" ext="jar" conf="" m:classifier="tests"/>
+		</dependency>
+		<dependency org="junit" name="junit" rev="4.10" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.1" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="org.kitesdk" module="kite-morphlines-maxmind" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.flume" module="flume-ng-sdk" matcher="exact" rev="1.4.0"/>
+		<override org="commons-codec" module="commons-codec" matcher="exact" rev="1.4"/>
+		<override org="org.apache.maven.plugin-tools" module="maven-plugin-annotations" matcher="exact" rev="3.1"/>
+		<override org="org.apache.hadoop" module="hadoop-aws" matcher="exact" rev="2.6.0"/>
+		<override org="org.kitesdk" module="kite-hbase-dependencies" matcher="exact" rev="1.1.0"/>
+		<override org="org.kitesdk" module="kite-hbase-test-dependencies" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.flume" module="flume-ng-core" matcher="exact" rev="1.4.0"/>
+		<override org="org.slf4j" module="jcl-over-slf4j" matcher="exact" rev="1.6.1"/>
+		<override org="org.apache.solr" module="solr-test-framework" matcher="exact" rev="4.10.3"/>
+		<override org="commons-logging" module="commons-logging" matcher="exact" rev="1.1.1"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.10"/>
+		<override org="org.kitesdk" module="kite-morphlines-avro" matcher="exact" rev="1.1.0"/>
+		<override org="org.kitesdk" module="kite-morphlines-metrics-servlets" matcher="exact" rev="1.1.0"/>
+		<override org="com.twitter" module="parquet-hive-bundle" matcher="exact" rev="1.6.0"/>
+		<override org="org.apache.maven" module="maven-project" matcher="exact" rev="2.0.6"/>
+		<override org="org.kitesdk" module="kite-morphlines" matcher="exact" rev="1.1.0"/>
+		<override org="org.kitesdk" module="kite-morphlines-hadoop-core" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.crunch" module="crunch-core" matcher="exact" rev="0.10.0-hadoop2"/>
+		<override org="org.apache.hive" module="hive-serde" matcher="exact" rev="0.13.0"/>
+		<override org="org.apache.spark" module="spark-core_2.10" matcher="exact" rev="1.0.0"/>
+		<override org="org.apache.hive" module="hive-serde" matcher="exact" rev="0.13.0"/>
+		<override org="org.kitesdk" module="kite-morphlines-tika-core" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.solr" module="solr-core" matcher="exact" rev="4.10.3"/>
+		<override org="org.apache.solr" module="solr-core" matcher="exact" rev="4.10.3"/>
+		<override org="org.apache.solr" module="solr-core" matcher="exact" rev="4.10.3"/>
+		<override org="org.apache.solr" module="solr-core" matcher="exact" rev="4.10.3"/>
+		<override org="org.apache.hive" module="hive-serde" matcher="exact" rev="0.13.0"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.10"/>
+		<override org="log4j" module="log4j" matcher="exact" rev="1.2.16"/>
+		<override org="org.apache.tika" module="tika-xmp" matcher="exact" rev="1.5"/>
+		<override org="org.apache.solr" module="solr-core" matcher="exact" rev="4.10.3"/>
+		<override org="com.google.code.findbugs" module="jsr305" matcher="exact" rev="2.0.1"/>
+		<override org="org.kitesdk" module="kite-hadoop-test-dependencies" matcher="exact" rev="1.1.0"/>
+		<override org="org.codehaus.plexus" module="plexus-utils" matcher="exact" rev="3.0"/>
+		<override org="org.twdata.maven" module="mojo-executor" matcher="exact" rev="1.5"/>
+		<override org="org.eclipse.jetty" module="jetty-servlet" matcher="exact" rev="8.1.14.v20131031"/>
+		<override org="com.codahale.metrics" module="metrics-servlets" matcher="exact" rev="3.0.2"/>
+		<override org="com.twitter" module="parquet-avro" matcher="exact" rev="1.6.0"/>
+		<override org="com.google.guava" module="guava" matcher="exact" rev="11.0.2"/>
+		<override org="commons-lang" module="commons-lang" matcher="exact" rev="2.5"/>
+		<override org="org.kitesdk" module="kite-morphlines-protobuf" matcher="exact" rev="1.1.0"/>
+		<override org="org.kitesdk" module="kite-morphlines-twitter" matcher="exact" rev="1.1.0"/>
+		<override org="org.kitesdk" module="kite-morphlines-saxon" matcher="exact" rev="1.1.0"/>
+		<override org="org.kitesdk" module="kite-morphlines-hadoop-rcfile" matcher="exact" rev="1.1.0"/>
+		<override org="org.mockito" module="mockito-all" matcher="exact" rev="1.9.5"/>
+		<override org="org.kitesdk" module="kite-morphlines-tika-decompress" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.crunch" module="crunch-core" matcher="exact" rev="0.10.0-hadoop2"/>
+		<override org="org.apache.hadoop" module="hadoop-aws" matcher="exact" rev="2.6.0"/>
+		<override org="org.kitesdk" module="kite-hadoop-dependencies" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.tika" module="tika-xmp" matcher="exact" rev="1.5"/>
+		<override org="org.apache.tika" module="tika-xmp" matcher="exact" rev="1.5"/>
+		<override org="org.apache.oozie" module="oozie-client" matcher="exact" rev="3.3.2-cdh4.4.0"/>
+		<override org="com.google.code.findbugs" module="annotations" matcher="exact" rev="2.0.1"/>
+		<override org="org.kitesdk" module="kite-morphlines-hadoop-parquet-avro" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.commons" module="commons-compress" matcher="exact" rev="1.4.1"/>
+		<override org="org.apache.flume" module="flume-ng-configuration" matcher="exact" rev="1.4.0"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.6.1"/>
+		<override org="org.slf4j" module="slf4j-log4j12" matcher="exact" rev="1.6.1"/>
+		<override org="org.kitesdk" module="kite-morphlines-useragent" matcher="exact" rev="1.1.0"/>
+		<override org="net.sf.opencsv" module="opencsv" matcher="exact" rev="2.3"/>
+		<override org="org.apache.avro" module="avro" matcher="exact" rev="1.7.5"/>
+		<override org="org.apache.commons" module="commons-jexl" matcher="exact" rev="2.1.1"/>
+		<override org="org.kitesdk" module="kite-morphlines-solr-cell" matcher="exact" rev="1.1.0"/>
+		<override org="com.codahale.metrics" module="metrics-healthchecks" matcher="exact" rev="3.0.2"/>
+		<override org="org.apache.maven" module="maven-plugin-api" matcher="exact" rev="2.0.6"/>
+		<override org="org.kitesdk" module="kite-morphlines-hadoop-sequencefile" matcher="exact" rev="1.1.0"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-annotations" matcher="exact" rev="2.3.1"/>
+		<override org="org.apache.maven.plugin-tools" module="maven-plugin-annotations" matcher="exact" rev="3.1"/>
+		<override org="org.kitesdk" module="kite-morphlines-json" matcher="exact" rev="1.1.0"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-core" matcher="exact" rev="2.3.1"/>
+		<override org="com.twitter" module="parquet-avro" matcher="exact" rev="1.6.0"/>
+		<override org="org.kitesdk" module="kite-hbase-test-dependencies" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.tika" module="tika-core" matcher="exact" rev="1.5"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.3.1"/>
+		<override org="commons-io" module="commons-io" matcher="exact" rev="2.1"/>
+		<override org="org.apache.solr" module="solr-test-framework" matcher="exact" rev="4.10.3"/>
+		<override org="org.apache.maven" module="maven-plugin-api" matcher="exact" rev="2.0.6"/>
+		<override org="com.twitter" module="parquet-hive-bundle" matcher="exact" rev="1.6.0"/>
+		<override org="org.mockito" module="mockito-all" matcher="exact" rev="1.9.5"/>
+		<override org="com.typesafe" module="config" matcher="exact" rev="1.0.2"/>
+		<override org="com.beust" module="jcommander" matcher="exact" rev="1.35"/>
+		<override org="org.kitesdk" module="kite-morphlines-core" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.solr" module="solr-cell" matcher="exact" rev="4.10.3"/>
+		<override org="org.kitesdk" module="kite-morphlines-solr-core" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.hive" module="hive-exec" matcher="exact" rev="0.13.0"/>
+		<override org="com.google.code.findbugs" module="annotations" matcher="exact" rev="2.0.1"/>
+		<override org="org.kitesdk" module="kite-hadoop-test-dependencies" matcher="exact" rev="1.1.0"/>
+		<override org="com.codahale.metrics" module="metrics-core" matcher="exact" rev="3.0.2"/>
+		<override org="org.kitesdk" module="kite-hadoop-compatibility" matcher="exact" rev="1.1.0"/>
+		<override org="joda-time" module="joda-time" matcher="exact" rev="2.3"/>
+		<override org="com.google.code.findbugs" module="jsr305" matcher="exact" rev="2.0.1"/>
+	</dependencies>
+</ivy-module>

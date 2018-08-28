@@ -1,0 +1,22 @@
+SOLR
+	-lucene
+	-solr
+
+
+
+cd to SOLR directory
+sudo ant ivy-bootstrap
+
+sudo ant clean compile
+
+sudo ant clean comlel
+
+
+For starting web user interface
+cd solr 
+sudo ant clean server
+
+bin/solr start
+
+localhost:8983/#/test
+
